@@ -1,24 +1,55 @@
 import { test } from '@playwright/test'
 import fs from 'fs'
 
-const temp: Temp = { flow: '55', return: '45' }
+const temp:
+  | { flow: '35'; return: '28' }
+  | { flow: '50'; return: '43' }
+  | { flow: '55'; return: '45' }
+  | { flow: '60'; return: '53' } = { flow: '55', return: '45' }
 const heatSource = 'Luft'
 const normTemp = '-13'
+const blacklist = [
+  'Clivet', // empty
+  'MAXA', // empty
+  'Mitsubishi Electric', // R32/490
+  'Kermi GmbH', // R32
+  'Panasonic', // R32
+  'Pollmann Technik', // R32
+  'Nilan GmbH', // Luft/Luft
+  'Aereco', // Luft/Luft
+]
+
+let result: Array<{
+  pump: string
+  manufacturer: string
+  heat: number
+  water: number
+  combined: number
+}> = []
 
 const removeMultiSpaces = (str: string) => str.replace(/\s{2,}/, ' ')
 const toFloat = (value: string) => Number.parseFloat(value.replace(',', '.'))
 const toText = (els: HTMLElement[]) => els.map(({ textContent }) => textContent)
 
-let result: Entry[] = []
+const stats = {
+  manufacturers: 0,
+  models: 0,
+}
 
 test.afterAll(() => {
   fs.writeFileSync(
-    './data.json',
+    `./data_${temp.flow}_${temp.return}_${new Date().toISOString()}.json`,
     JSON.stringify(
-      result.sort((a, b) => b.combined - a.combined),
+      result
+        .filter(({ combined }) => !isNaN(combined))
+        .sort((a, b) => b.combined - a.combined),
       null,
       2
     )
+  )
+
+  console.info(
+    `\n\nChecked ${stats.models} heatpumps across ${stats.manufacturers} manufacturers.`
   )
 })
 
@@ -29,11 +60,11 @@ test('get JAZ', async ({ page }) => {
     '#wp_hersteller > option',
     (manufacturer) =>
       // remove the first 3 (placeholder, custom, none)
-      manufacturer.map(({ textContent }) => textContent).slice(5)
+      manufacturer.map(({ textContent }) => textContent).slice(3)
   )
 
   for (const manufacturer of manufacturers) {
-    if (manufacturer === null) continue
+    if (manufacturer === null || blacklist.includes(manufacturer)) continue
 
     // replace multi spaces as it breaks option selection
     await page.selectOption('#wp_hersteller', removeMultiSpaces(manufacturer))
@@ -48,6 +79,8 @@ test('get JAZ', async ({ page }) => {
 
     const pumpOptions = await page.$$eval('#wp_waermepumpe > option', toText)
 
+    stats.manufacturers += 1
+
     for (const pump of pumpOptions) {
       if (pump === null) continue
 
@@ -60,7 +93,7 @@ test('get JAZ', async ({ page }) => {
 
       await page.getByText('Aktualisieren').click()
 
-      await page.waitForTimeout(400)
+      await page.waitForTimeout(200)
       const heat = toFloat(await page.locator('#jaz_heizbetrieb').inputValue())
       const water = toFloat(
         await page.locator('#jaz_wasserbereitung').inputValue()
@@ -68,6 +101,8 @@ test('get JAZ', async ({ page }) => {
       const combined = toFloat(await page.locator('#jaz_gesamt').inputValue())
 
       result.push({ pump, manufacturer, heat, water, combined })
+
+      stats.models += 1
 
       console.log(`${manufacturer} ${pump}: ${combined}`)
     }

@@ -21,8 +21,22 @@
     "combined": 4.61
   },
   {
+    "pump": "Zewo-Lambda EU15L",
+    "manufacturer": "Zewotherm",
+    "heat": 4.71,
+    "water": 4.22,
+    "combined": 4.61
+  },
+  {
     "pump": "EU08L",
     "manufacturer": "LAMBDA Wärmepumpen",
+    "heat": 4.72,
+    "water": 4.13,
+    "combined": 4.6
+  },
+  {
+    "pump": "Zewo-Lambda EU08L",
+    "manufacturer": "Zewotherm",
     "heat": 4.72,
     "water": 4.13,
     "combined": 4.6
@@ -36,7 +50,7 @@
   },
   {
     "pump": "Zewo-Lambda EU13L",
-    "manufacturer": "Swegon",
+    "manufacturer": "Zewotherm",
     "heat": 4.67,
     "water": 4.25,
     "combined": 4.59
@@ -254,9 +268,9 @@
   {
     "pump": "CHA-10/400V",
     "manufacturer": "Wolf",
-    "heat": 4.12,
+    "heat": 4.24,
     "water": 4.1,
-    "combined": 4.11
+    "combined": 4.22
   },
   {
     "pump": "Mono HT-Quiet 12 RE-3 (AE 120 BXYDGG/EU +  MIM-E03CN)",
@@ -506,8 +520,8 @@
   {
     "pump": "LWZ 5 S Plus",
     "manufacturer": "Stiebel Eltron",
-    "heat": null,
-    "water": null,
+    "heat": 4.29,
+    "water": 3.53,
     "combined": 4.13
   },
   {
@@ -540,6 +554,13 @@
   },
   {
     "pump": "EcoTouch Air Kaskade 5030.5",
+    "manufacturer": "Waterkotte",
+    "heat": 4.27,
+    "water": 3.58,
+    "combined": 4.13
+  },
+  {
+    "pump": "EcoTouch Air Kaskade 5045.5",
     "manufacturer": "Waterkotte",
     "heat": 4.27,
     "water": 3.58,
@@ -749,6 +770,13 @@
     "combined": 4.08
   },
   {
+    "pump": "LWPM 14",
+    "manufacturer": "Austria Email GmbH",
+    "heat": 4.1,
+    "water": 3.97,
+    "combined": 4.07
+  },
+  {
     "pump": "DAIKIN Altherma 3 R 07 ECH2O 300/500 H/C (H) (Biv)",
     "manufacturer": "DAIKIN",
     "heat": 4.15,
@@ -819,13 +847,6 @@
     "combined": 4.07
   },
   {
-    "pump": "CHA-07/400V",
-    "manufacturer": "Wolf",
-    "heat": 4.1,
-    "water": 3.92,
-    "combined": 4.07
-  },
-  {
     "pump": "BLW-C NEO 25 B",
     "manufacturer": "Brötje",
     "heat": 4.15,
@@ -882,6 +903,13 @@
     "combined": 4.06
   },
   {
+    "pump": "AEROTOP G08.2 INOX / INOX OPTIC",
+    "manufacturer": "Elco",
+    "heat": 4.12,
+    "water": 3.74,
+    "combined": 4.05
+  },
+  {
     "pump": "Belaria comfort ICM (8)",
     "manufacturer": "Hoval",
     "heat": 4.15,
@@ -910,6 +938,13 @@
     "combined": 4.05
   },
   {
+    "pump": "ENHPR3210KW1PH",
+    "manufacturer": "ENVIRON",
+    "heat": 4.19,
+    "water": 3.46,
+    "combined": 4.04
+  },
+  {
     "pump": "Hub Mono HT Quiet 8-260-3 (AE 080 BXYDGG/EU + AE 260 RNWMGG/EU)",
     "manufacturer": "Samsung",
     "heat": 4.26,
@@ -933,7 +968,7 @@
   {
     "pump": "AEROTOP SX7",
     "manufacturer": "Elco",
-    "heat": null,
+    "heat": 4.11,
     "water": 3.69,
     "combined": 4.03
   },
@@ -1283,7 +1318,7 @@
   {
     "pump": "DAIKIN Altherma 3 R MT W BG 8 KW H/C",
     "manufacturer": "DAIKIN",
-    "heat": null,
+    "heat": 4.09,
     "water": 3.65,
     "combined": 4
   },
@@ -1374,14 +1409,14 @@
   {
     "pump": "EQ Air 724",
     "manufacturer": "EQtherm GmbH",
-    "heat": null,
+    "heat": 4.07,
     "water": 3.64,
     "combined": 3.99
   },
   {
     "pump": "UltraSource B comfort C (17)",
     "manufacturer": "Hoval",
-    "heat": null,
+    "heat": 4.09,
     "water": 3.62,
     "combined": 3.99
   },
@@ -1524,6 +1559,13 @@
     "heat": 4.05,
     "water": 3.64,
     "combined": 3.97
+  },
+  {
+    "pump": "BLW Eco 8.1 + Kit 65",
+    "manufacturer": "Brötje",
+    "heat": 4.03,
+    "water": 3.69,
+    "combined": 3.96
   },
   {
     "pump": "BLW Eco-W 8.1",
@@ -1729,6 +1771,13 @@
     "combined": 3.94
   },
   {
+    "pump": "AeroWIN Premium 13.9",
+    "manufacturer": "Windhager GmbH",
+    "heat": 4.01,
+    "water": 3.65,
+    "combined": 3.94
+  },
+  {
     "pump": "FHA-08/10-230V-M2 FS-B2",
     "manufacturer": "Wolf",
     "heat": 4.06,
@@ -1848,6 +1897,13 @@
     "combined": 3.92
   },
   {
+    "pump": "ENHPR3220KW3PH",
+    "manufacturer": "ENVIRON",
+    "heat": 4.05,
+    "water": 3.44,
+    "combined": 3.92
+  },
+  {
     "pump": "HP25L-M-WEB",
     "manufacturer": "Heliotherm Wärmepumpentechnik Ges.m.b.H",
     "heat": 4,
@@ -1871,8 +1927,8 @@
   {
     "pump": "Tensio C 10 MR",
     "manufacturer": "Remeha GmbH",
-    "heat": null,
-    "water": null,
+    "heat": 4.02,
+    "water": 3.54,
     "combined": 3.92
   },
   {
@@ -1988,6 +2044,13 @@
     "combined": 3.9
   },
   {
+    "pump": "System M Comfort plus 16IHOIAOC6",
+    "manufacturer": "Dimplex",
+    "heat": 4.01,
+    "water": 3.48,
+    "combined": 3.9
+  },
+  {
     "pump": "System M Comfort plus C 16CHCIAOC6",
     "manufacturer": "Dimplex",
     "heat": 4.01,
@@ -2032,7 +2095,7 @@
   {
     "pump": "Kita Mi",
     "manufacturer": "Templari",
-    "heat": null,
+    "heat": 3.99,
     "water": 3.54,
     "combined": 3.9
   },
@@ -2060,7 +2123,7 @@
   {
     "pump": "Vitocal 250-A AWO-M-AC (-AF) 251.A04 (2C)",
     "manufacturer": "Viessmann",
-    "heat": null,
+    "heat": 3.96,
     "water": 3.65,
     "combined": 3.9
   },
@@ -2090,6 +2153,13 @@
     "manufacturer": "alpha innotec",
     "heat": 3.96,
     "water": 3.6,
+    "combined": 3.89
+  },
+  {
+    "pump": "BLW Eco 4.1 + Kit 65",
+    "manufacturer": "Brötje",
+    "heat": 3.94,
+    "water": 3.65,
     "combined": 3.89
   },
   {
@@ -2129,6 +2199,13 @@
   },
   {
     "pump": "DAIKIN Altherma 3 H HT BG 18 F 180/230 H/C (H) (Bi-Zone) (low sound)",
+    "manufacturer": "DAIKIN",
+    "heat": 3.97,
+    "water": 3.58,
+    "combined": 3.89
+  },
+  {
+    "pump": "DAIKIN Altherma 3 H HT BG 18 W H/C (H)",
     "manufacturer": "DAIKIN",
     "heat": 3.97,
     "water": 3.58,
@@ -2235,8 +2312,8 @@
   {
     "pump": "SolvisLea 8 Eco",
     "manufacturer": "Solvis",
-    "heat": null,
-    "water": null,
+    "heat": 3.93,
+    "water": 3.75,
     "combined": 3.89
   },
   {
@@ -2265,6 +2342,27 @@
     "manufacturer": "Templari",
     "heat": 4.01,
     "water": 3.43,
+    "combined": 3.89
+  },
+  {
+    "pump": "Vitocal 150-A AWO-E-AC (-AF) 151.A10",
+    "manufacturer": "Viessmann",
+    "heat": 3.97,
+    "water": 3.58,
+    "combined": 3.89
+  },
+  {
+    "pump": "Vitocal 150-A AWO-M-E-AC (-AF) 151.A10",
+    "manufacturer": "Viessmann",
+    "heat": 3.97,
+    "water": 3.58,
+    "combined": 3.89
+  },
+  {
+    "pump": "Vitocal 151-A AWOT-E-AC (-AF) 151.A10",
+    "manufacturer": "Viessmann",
+    "heat": 3.97,
+    "water": 3.58,
     "combined": 3.89
   },
   {
@@ -2394,6 +2492,13 @@
     "combined": 3.87
   },
   {
+    "pump": "Kita Si",
+    "manufacturer": "Templari",
+    "heat": 3.97,
+    "water": 3.49,
+    "combined": 3.87
+  },
+  {
     "pump": "Vitocal 250-S HAWB-AC 252.A10",
     "manufacturer": "Viessmann",
     "heat": 3.92,
@@ -2450,6 +2555,13 @@
     "combined": 3.87
   },
   {
+    "pump": "LA 1422C",
+    "manufacturer": "Dimplex",
+    "heat": 3.9,
+    "water": 3.67,
+    "combined": 3.86
+  },
+  {
     "pump": "AEROTOP SG14 INOX / INOX OPTIC",
     "manufacturer": "Elco",
     "heat": 3.9,
@@ -2501,13 +2613,6 @@
   {
     "pump": "CS7001iAW 9 ORE/B/M/MS/MB",
     "manufacturer": "Bosch",
-    "heat": 3.91,
-    "water": 3.59,
-    "combined": 3.85
-  },
-  {
-    "pump": "Logatherm WLW196i-8 AR E/B/T/TS/TP",
-    "manufacturer": "Buderus",
     "heat": 3.91,
     "water": 3.59,
     "combined": 3.85
@@ -2597,13 +2702,6 @@
     "combined": 3.85
   },
   {
-    "pump": "LW12-Eco MaxiCOP longlife",
-    "manufacturer": "Voß Wärmepumpen",
-    "heat": 3.94,
-    "water": 3.51,
-    "combined": 3.85
-  },
-  {
     "pump": "CS7001iAW 7 ORE/B/M/MS/MB",
     "manufacturer": "Bosch",
     "heat": 3.85,
@@ -2611,7 +2709,7 @@
     "combined": 3.84
   },
   {
-    "pump": "Logatherm WLW196i-6 AR E/B/T/TS/TP",
+    "pump": "Logatherm WLW276-36 (IP, P, V)",
     "manufacturer": "Buderus",
     "heat": 3.85,
     "water": 3.8,
@@ -2667,6 +2765,13 @@
     "combined": 3.84
   },
   {
+    "pump": "M Flex 0609",
+    "manufacturer": "Dimplex",
+    "heat": 3.95,
+    "water": 3.41,
+    "combined": 3.84
+  },
+  {
     "pump": "M Flex 0609HBC M",
     "manufacturer": "Dimplex",
     "heat": 3.95,
@@ -2695,14 +2800,7 @@
     "combined": 3.84
   },
   {
-    "pump": "ATHENA 14 400V HC",
-    "manufacturer": "Thermia Wärmepumpe",
-    "heat": 3.88,
-    "water": 3.65,
-    "combined": 3.84
-  },
-  {
-    "pump": "ATHENA 18 400V HC",
+    "pump": "iTec 5",
     "manufacturer": "Thermia Wärmepumpe",
     "heat": 3.88,
     "water": 3.65,
@@ -2800,16 +2898,16 @@
     "combined": 3.83
   },
   {
-    "pump": "Logatherm WLW196i.2-4 AR E/B/T/TS/TP S+",
+    "pump": "Logatherm WLW276-31 (IP, P, V)",
     "manufacturer": "Buderus",
-    "heat": 3.88,
+    "heat": 3.89,
     "water": 3.59,
     "combined": 3.83
   },
   {
-    "pump": "Logatherm WLW196i.2-6 AR E/B/T/TS/TP S+",
+    "pump": "Logatherm WLW276-53 (IP, P, V)",
     "manufacturer": "Buderus",
-    "heat": 3.89,
+    "heat": 3.88,
     "water": 3.59,
     "combined": 3.83
   },
@@ -2853,6 +2951,13 @@
     "manufacturer": "NOVELAN",
     "heat": 3.92,
     "water": 3.47,
+    "combined": 3.83
+  },
+  {
+    "pump": "Kita Si Plus",
+    "manufacturer": "Templari",
+    "heat": 3.95,
+    "water": 3.39,
     "combined": 3.83
   },
   {
@@ -2968,6 +3073,20 @@
     "combined": 3.82
   },
   {
+    "pump": "LWPM 16",
+    "manufacturer": "Austria Email GmbH",
+    "heat": 3.81,
+    "water": 3.79,
+    "combined": 3.81
+  },
+  {
+    "pump": "LWPMK 16",
+    "manufacturer": "Austria Email GmbH",
+    "heat": 3.81,
+    "water": 3.79,
+    "combined": 3.81
+  },
+  {
     "pump": "AEROTOP SPLIT 11M-R (ab Q4 2018)",
     "manufacturer": "Elco",
     "heat": 3.83,
@@ -3031,20 +3150,6 @@
     "combined": 3.8
   },
   {
-    "pump": "Logatherm WLW186i-10 AR E (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.89,
-    "water": 3.47,
-    "combined": 3.8
-  },
-  {
-    "pump": "Logatherm WLW186i-12 AR E (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.88,
-    "water": 3.47,
-    "combined": 3.8
-  },
-  {
     "pump": "LIA 0608BWCF M",
     "manufacturer": "Dimplex",
     "heat": 3.86,
@@ -3073,7 +3178,7 @@
     "combined": 3.8
   },
   {
-    "pump": "Kita Si Plus",
+    "pump": "Kita Si Cold",
     "manufacturer": "Templari",
     "heat": 3.87,
     "water": 3.49,
@@ -3096,7 +3201,7 @@
   {
     "pump": "Vitocal 250-SH HAWB-M-AC-(AF) 252.B10",
     "manufacturer": "Viessmann",
-    "heat": null,
+    "heat": 3.87,
     "water": 3.51,
     "combined": 3.8
   },
@@ -3227,6 +3332,13 @@
     "combined": 3.78
   },
   {
+    "pump": "BLW Eco 6.1 + Kit 65",
+    "manufacturer": "Brötje",
+    "heat": 3.84,
+    "water": 3.54,
+    "combined": 3.78
+  },
+  {
     "pump": "BLW Eco-W 12.1",
     "manufacturer": "Brötje",
     "heat": 3.84,
@@ -3255,14 +3367,7 @@
     "combined": 3.78
   },
   {
-    "pump": "Logatherm WLW186i-10 AR T180 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.86,
-    "water": 3.44,
-    "combined": 3.78
-  },
-  {
-    "pump": "Logatherm WLW186i-10 AR TP70 (W)",
+    "pump": "Logatherm WLW196i.2-4 AR E/B/T/TS/TP S+",
     "manufacturer": "Buderus",
     "heat": 3.86,
     "water": 3.44,
@@ -3381,13 +3486,6 @@
     "combined": 3.77
   },
   {
-    "pump": "Logatherm WLW186i-12 AR TP70 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.86,
-    "water": 3.44,
-    "combined": 3.77
-  },
-  {
     "pump": "Aeroheat SCI 25a",
     "manufacturer": "CTA AG",
     "heat": 3.84,
@@ -3399,6 +3497,13 @@
     "manufacturer": "Dimplex",
     "heat": 3.81,
     "water": 3.58,
+    "combined": 3.77
+  },
+  {
+    "pump": "HERZ commotherm AWi-Mono 18",
+    "manufacturer": "Herz Energietechnik",
+    "heat": 3.87,
+    "water": 3.37,
     "combined": 3.77
   },
   {
@@ -3528,13 +3633,6 @@
     "combined": 3.76
   },
   {
-    "pump": "BLW NEO 12 (B)",
-    "manufacturer": "Brötje",
-    "heat": 3.86,
-    "water": 3.37,
-    "combined": 3.76
-  },
-  {
     "pump": "Logatherm WLW176i-12 AR T180",
     "manufacturer": "Buderus",
     "heat": 3.85,
@@ -3542,10 +3640,10 @@
     "combined": 3.76
   },
   {
-    "pump": "Logatherm WLW186i-12 AR T180 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.85,
-    "water": 3.44,
+    "pump": "HPL 9S-TURW",
+    "manufacturer": "Dimplex",
+    "heat": 3.82,
+    "water": 3.53,
     "combined": 3.76
   },
   {
@@ -3563,7 +3661,7 @@
     "combined": 3.76
   },
   {
-    "pump": "AEROTOP HYBRID MINI 15/07RX und 22/07RX",
+    "pump": "AEROTOP HYBRID MINI 15/04RX und 22/04RX",
     "manufacturer": "Elco",
     "heat": 3.78,
     "water": 3.66,
@@ -3668,17 +3766,10 @@
     "combined": 3.76
   },
   {
-    "pump": "AlphaTherm Zero 8",
-    "manufacturer": "SunHybrid GmbH",
-    "heat": 3.81,
-    "water": 3.55,
-    "combined": 3.76
-  },
-  {
-    "pump": "AlphaTherm Zero2-8",
-    "manufacturer": "SunHybrid GmbH",
-    "heat": 3.81,
-    "water": 3.52,
+    "pump": "aero 168 R",
+    "manufacturer": "SmartHeat Deutschland GmbH",
+    "heat": 3.87,
+    "water": 3.32,
     "combined": 3.76
   },
   {
@@ -3717,7 +3808,7 @@
     "combined": 3.75
   },
   {
-    "pump": "Logatherm WLW196i-14 IR E/B/T/TS/TP",
+    "pump": "Logatherm WLW276-41 (IP, P, V)",
     "manufacturer": "Buderus",
     "heat": 3.81,
     "water": 3.51,
@@ -3808,13 +3899,6 @@
     "combined": 3.75
   },
   {
-    "pump": "WPL 24 IK",
-    "manufacturer": "Stiebel Eltron",
-    "heat": 3.85,
-    "water": 3.38,
-    "combined": 3.75
-  },
-  {
     "pump": "TTL 13.5 A",
     "manufacturer": "Tecalor",
     "heat": 3.85,
@@ -3847,6 +3931,34 @@
     "manufacturer": "Templari",
     "heat": 3.86,
     "water": 3.31,
+    "combined": 3.75
+  },
+  {
+    "pump": "Vitocal 150-A AWO-E-AC (-AF) 151.A13",
+    "manufacturer": "Viessmann",
+    "heat": 3.81,
+    "water": 3.51,
+    "combined": 3.75
+  },
+  {
+    "pump": "Vitocal 150-A AWO-M-E-AC (-AF) 151.A04",
+    "manufacturer": "Viessmann",
+    "heat": 3.79,
+    "water": 3.58,
+    "combined": 3.75
+  },
+  {
+    "pump": "Vitocal 151-A AWOT-M-E-AC (-AF) 151.A04",
+    "manufacturer": "Viessmann",
+    "heat": 3.79,
+    "water": 3.58,
+    "combined": 3.75
+  },
+  {
+    "pump": "Vitocal 151-A AWOT-M-E-AC (-AF) 151.A10",
+    "manufacturer": "Viessmann",
+    "heat": 3.79,
+    "water": 3.58,
     "combined": 3.75
   },
   {
@@ -3920,6 +4032,20 @@
     "combined": 3.74
   },
   {
+    "pump": "AEROTOP HYBRID MINI 15/07R und 22/07R",
+    "manufacturer": "Elco",
+    "heat": 3.77,
+    "water": 3.58,
+    "combined": 3.73
+  },
+  {
+    "pump": "AEROTOP HYBRID MINI 15/07RX und 22/07RX",
+    "manufacturer": "Elco",
+    "heat": 3.77,
+    "water": 3.58,
+    "combined": 3.73
+  },
+  {
     "pump": "AEROTOP MONO 07M-RL / CR 1Z / CR 2Z (ab Q4 2018)",
     "manufacturer": "Elco",
     "heat": 3.77,
@@ -3931,13 +4057,6 @@
     "manufacturer": "Elco",
     "heat": 3.77,
     "water": 3.58,
-    "combined": 3.73
-  },
-  {
-    "pump": "i-290 0115",
-    "manufacturer": "Swegon",
-    "heat": 3.77,
-    "water": 3.54,
     "combined": 3.73
   },
   {
@@ -4074,6 +4193,13 @@
     "combined": 3.7
   },
   {
+    "pump": "HERZ commotherm AWi-Mono 9",
+    "manufacturer": "Herz Energietechnik",
+    "heat": 3.79,
+    "water": 3.36,
+    "combined": 3.7
+  },
+  {
     "pump": "aero plus 088",
     "manufacturer": "SmartHeat Deutschland GmbH",
     "heat": 3.82,
@@ -4083,22 +4209,8 @@
   {
     "pump": "aero plus 088 R",
     "manufacturer": "SmartHeat Deutschland GmbH",
-    "heat": null,
+    "heat": 3.82,
     "water": 3.22,
-    "combined": 3.7
-  },
-  {
-    "pump": "AlphaTherm2-11",
-    "manufacturer": "SunHybrid GmbH",
-    "heat": 3.74,
-    "water": 3.52,
-    "combined": 3.7
-  },
-  {
-    "pump": "HERZ commotherm AWi-Mono 9",
-    "manufacturer": "Swegon",
-    "heat": 3.79,
-    "water": 3.36,
     "combined": 3.7
   },
   {
@@ -4202,7 +4314,7 @@
   {
     "pump": "HWT-801HRW-E / HWT-1101F21MM3W-E Estia AIO",
     "manufacturer": "Toshiba",
-    "heat": null,
+    "heat": 3.79,
     "water": 3.32,
     "combined": 3.69
   },
@@ -4323,6 +4435,27 @@
     "manufacturer": "Toshiba",
     "heat": 3.79,
     "water": 3.32,
+    "combined": 3.69
+  },
+  {
+    "pump": "Vitocal 150-A AWO-M-E-AC (-AF) 151.A06",
+    "manufacturer": "Viessmann",
+    "heat": 3.74,
+    "water": 3.51,
+    "combined": 3.69
+  },
+  {
+    "pump": "Vitocal 151-A AWOT-E-AC (-AF) 151.A13",
+    "manufacturer": "Viessmann",
+    "heat": 3.74,
+    "water": 3.51,
+    "combined": 3.69
+  },
+  {
+    "pump": "Vitocal 151-A AWOT-M-E-AC (-AF) 151.A06",
+    "manufacturer": "Viessmann",
+    "heat": 3.74,
+    "water": 3.51,
     "combined": 3.69
   },
   {
@@ -4655,6 +4788,13 @@
     "combined": 3.66
   },
   {
+    "pump": "DAIKIN Altherma 3 R 6kW W H/C (H) (low sound)",
+    "manufacturer": "DAIKIN",
+    "heat": 3.71,
+    "water": 3.47,
+    "combined": 3.66
+  },
+  {
     "pump": "LI 12TU",
     "manufacturer": "Dimplex",
     "heat": 3.69,
@@ -4685,7 +4825,7 @@
   {
     "pump": "AEROTOP SPLIT 08.2 M-CR (X)",
     "manufacturer": "Elco",
-    "heat": null,
+    "heat": 3.71,
     "water": 3.44,
     "combined": 3.66
   },
@@ -4762,7 +4902,7 @@
   {
     "pump": "BWL-1S(B)-14/400V",
     "manufacturer": "Wolf",
-    "heat": null,
+    "heat": 3.72,
     "water": 3.44,
     "combined": 3.66
   },
@@ -4820,13 +4960,6 @@
     "manufacturer": "Stiebel Eltron",
     "heat": 3.74,
     "water": 3.29,
-    "combined": 3.65
-  },
-  {
-    "pump": "i-290 0121",
-    "manufacturer": "Swegon",
-    "heat": 3.69,
-    "water": 3.49,
     "combined": 3.65
   },
   {
@@ -4897,6 +5030,13 @@
     "manufacturer": "Viessmann",
     "heat": 3.67,
     "water": 3.58,
+    "combined": 3.65
+  },
+  {
+    "pump": "FHA-14/17-230V-M2 FS-C2",
+    "manufacturer": "Wolf",
+    "heat": 3.65,
+    "water": 3.61,
     "combined": 3.65
   },
   {
@@ -4998,20 +5138,6 @@
     "combined": 3.63
   },
   {
-    "pump": "Logatherm WLW196i-11 AR E/B/T/TS/TP",
-    "manufacturer": "Buderus",
-    "heat": 3.65,
-    "water": 3.58,
-    "combined": 3.63
-  },
-  {
-    "pump": "Logatherm WLW196i-11 IR E/B/T/TS/TP",
-    "manufacturer": "Buderus",
-    "heat": 3.65,
-    "water": 3.58,
-    "combined": 3.63
-  },
-  {
     "pump": "LIA 1316BWCF",
     "manufacturer": "Dimplex",
     "heat": 3.72,
@@ -5070,7 +5196,7 @@
   {
     "pump": "WPLW-Hub Mono-5-200",
     "manufacturer": "Samsung",
-    "heat": null,
+    "heat": 3.67,
     "water": 3.47,
     "combined": 3.63
   },
@@ -5278,7 +5404,14 @@
     "combined": 3.62
   },
   {
-    "pump": "Logatherm WLW196i-14 AR E/B/T/TS/TP",
+    "pump": "CS7001i AW 17 ORE/B/M/MS/MB",
+    "manufacturer": "Bosch",
+    "heat": 3.65,
+    "water": 3.49,
+    "combined": 3.62
+  },
+  {
+    "pump": "Logatherm WLW276-19 (IP, P, V)",
     "manufacturer": "Buderus",
     "heat": 3.65,
     "water": 3.49,
@@ -5301,14 +5434,14 @@
   {
     "pump": "HPL 12S-TUW",
     "manufacturer": "Dimplex",
-    "heat": null,
+    "heat": 3.67,
     "water": 3.43,
     "combined": 3.62
   },
   {
     "pump": "Comfort 5 kW R32 (WSYA050ML3 + WOYA060KLT)",
     "manufacturer": "FUJITSU",
-    "heat": null,
+    "heat": 3.68,
     "water": 3.39,
     "combined": 3.62
   },
@@ -5488,13 +5621,6 @@
     "combined": 3.62
   },
   {
-    "pump": "AlphaTherm Zero 11",
-    "manufacturer": "SunHybrid GmbH",
-    "heat": 3.67,
-    "water": 3.42,
-    "combined": 3.62
-  },
-  {
     "pump": "THZ 504",
     "manufacturer": "Tecalor",
     "heat": 3.64,
@@ -5572,7 +5698,7 @@
     "combined": 3.61
   },
   {
-    "pump": "Logatherm WLW186i-4 AR E (W)",
+    "pump": "Logatherm WLW276-16 (IP, P, V)",
     "manufacturer": "Buderus",
     "heat": 3.64,
     "water": 3.47,
@@ -5630,7 +5756,7 @@
   {
     "pump": "System M Comfort C 091HCIAOC6",
     "manufacturer": "Dimplex",
-    "heat": null,
+    "heat": 3.61,
     "water": 3.65,
     "combined": 3.61
   },
@@ -5693,27 +5819,6 @@
   {
     "pump": "CS7001iAW 5 ORE/B/M/MS/MB",
     "manufacturer": "Bosch",
-    "heat": 3.66,
-    "water": 3.36,
-    "combined": 3.6
-  },
-  {
-    "pump": "Logatherm WLW176i-7 AR E",
-    "manufacturer": "Buderus",
-    "heat": 3.63,
-    "water": 3.47,
-    "combined": 3.6
-  },
-  {
-    "pump": "Logatherm WLW186i-7 AR E (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.63,
-    "water": 3.47,
-    "combined": 3.6
-  },
-  {
-    "pump": "Logatherm WLW196i-4 AR E/B/T/TS/TP",
-    "manufacturer": "Buderus",
     "heat": 3.66,
     "water": 3.36,
     "combined": 3.6
@@ -5894,6 +5999,13 @@
     "combined": 3.59
   },
   {
+    "pump": "HERZ commotherm AWi-Mono 12",
+    "manufacturer": "Herz Energietechnik",
+    "heat": 3.69,
+    "water": 3.19,
+    "combined": 3.59
+  },
+  {
     "pump": "Belaria compact IR (9)",
     "manufacturer": "Hoval",
     "heat": 3.63,
@@ -5917,8 +6029,8 @@
   {
     "pump": "AuraModul F 15 kW E",
     "manufacturer": "Roth",
-    "heat": null,
-    "water": null,
+    "heat": 3.72,
+    "water": 3.1,
     "combined": 3.59
   },
   {
@@ -5926,13 +6038,6 @@
     "manufacturer": "Stiebel Eltron",
     "heat": 3.64,
     "water": 3.39,
-    "combined": 3.59
-  },
-  {
-    "pump": "i-290 0112",
-    "manufacturer": "Swegon",
-    "heat": 3.62,
-    "water": 3.46,
     "combined": 3.59
   },
   {
@@ -5979,27 +6084,6 @@
   },
   {
     "pump": "Logatherm WLW176i-4 AR TP70",
-    "manufacturer": "Buderus",
-    "heat": 3.61,
-    "water": 3.45,
-    "combined": 3.58
-  },
-  {
-    "pump": "Logatherm WLW176i-7 AR TP70",
-    "manufacturer": "Buderus",
-    "heat": 3.61,
-    "water": 3.45,
-    "combined": 3.58
-  },
-  {
-    "pump": "Logatherm WLW186i-4 AR TP70 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.61,
-    "water": 3.45,
-    "combined": 3.58
-  },
-  {
-    "pump": "Logatherm WLW186i-7 AR TP70 (W)",
     "manufacturer": "Buderus",
     "heat": 3.61,
     "water": 3.45,
@@ -6216,7 +6300,7 @@
     "combined": 3.57
   },
   {
-    "pump": "BLW Mono-K 8",
+    "pump": "BLW NEO 12 (B)",
     "manufacturer": "Brötje",
     "heat": 3.66,
     "water": 3.23,
@@ -6224,27 +6308,6 @@
   },
   {
     "pump": "Logatherm WLW176i-4 AR T180",
-    "manufacturer": "Buderus",
-    "heat": 3.6,
-    "water": 3.44,
-    "combined": 3.57
-  },
-  {
-    "pump": "Logatherm WLW176i-7 AR T180",
-    "manufacturer": "Buderus",
-    "heat": 3.6,
-    "water": 3.44,
-    "combined": 3.57
-  },
-  {
-    "pump": "Logatherm WLW186i-4 AR T180 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.6,
-    "water": 3.44,
-    "combined": 3.57
-  },
-  {
-    "pump": "Logatherm WLW186i-7 AR T180 (W)",
     "manufacturer": "Buderus",
     "heat": 3.6,
     "water": 3.44,
@@ -6283,6 +6346,13 @@
     "manufacturer": "Dimplex",
     "heat": 3.59,
     "water": 3.44,
+    "combined": 3.57
+  },
+  {
+    "pump": "Ecoline 12kW",
+    "manufacturer": "Dream Maker",
+    "heat": 3.7,
+    "water": 3.08,
     "combined": 3.57
   },
   {
@@ -6358,7 +6428,7 @@
   {
     "pump": "HWS-1105H-E / HWS-1405XWHT6-E Estia",
     "manufacturer": "Toshiba",
-    "heat": null,
+    "heat": 3.73,
     "water": 2.99,
     "combined": 3.57
   },
@@ -6379,7 +6449,7 @@
   {
     "pump": "HWS-P1105HR-E / HWS-P1105XWHT6-E Estia extreme",
     "manufacturer": "Toshiba",
-    "heat": null,
+    "heat": 3.66,
     "water": 3.21,
     "combined": 3.57
   },
@@ -6388,6 +6458,20 @@
     "manufacturer": "Toshiba",
     "heat": 3.66,
     "water": 3.21,
+    "combined": 3.57
+  },
+  {
+    "pump": "Vitocal 150-A AWO-M-E-AC (-AF) 151.A08",
+    "manufacturer": "Viessmann",
+    "heat": 3.62,
+    "water": 3.37,
+    "combined": 3.57
+  },
+  {
+    "pump": "Vitocal 151-A AWOT-M-E-AC (-AF) 151.A08",
+    "manufacturer": "Viessmann",
+    "heat": 3.62,
+    "water": 3.37,
     "combined": 3.57
   },
   {
@@ -6503,13 +6587,6 @@
     "combined": 3.56
   },
   {
-    "pump": "AlphaTherm Zero 14",
-    "manufacturer": "SunHybrid GmbH",
-    "heat": 3.62,
-    "water": 3.31,
-    "combined": 3.56
-  },
-  {
     "pump": "TTL 3.5 ACS",
     "manufacturer": "Tecalor",
     "heat": 3.63,
@@ -6545,7 +6622,7 @@
     "combined": 3.55
   },
   {
-    "pump": "BLW Split-K 6 C",
+    "pump": "BLW Split-K 8 C",
     "manufacturer": "Brötje",
     "heat": 3.69,
     "water": 3.06,
@@ -6553,13 +6630,6 @@
   },
   {
     "pump": "Logatherm WLW176i-5 AR E",
-    "manufacturer": "Buderus",
-    "heat": 3.57,
-    "water": 3.47,
-    "combined": 3.55
-  },
-  {
-    "pump": "Logatherm WLW186i-5 AR E (W)",
     "manufacturer": "Buderus",
     "heat": 3.57,
     "water": 3.47,
@@ -6764,7 +6834,7 @@
   {
     "pump": "WPLW-Hub TDM-9-260",
     "manufacturer": "Samsung",
-    "heat": null,
+    "heat": 3.67,
     "water": 3.09,
     "combined": 3.55
   },
@@ -6911,7 +6981,7 @@
   {
     "pump": "HWS-P1104HR-E1 / HWS-P1104XWHT6-E1 Estia extreme",
     "manufacturer": "Toshiba",
-    "heat": null,
+    "heat": 3.51,
     "water": 3.69,
     "combined": 3.54
   },
@@ -6979,21 +7049,7 @@
     "combined": 3.53
   },
   {
-    "pump": "Logatherm WLW176i-5 AR TP70",
-    "manufacturer": "Buderus",
-    "heat": 3.54,
-    "water": 3.45,
-    "combined": 3.53
-  },
-  {
-    "pump": "Logatherm WLW186i-5 AR TP70 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.54,
-    "water": 3.45,
-    "combined": 3.53
-  },
-  {
-    "pump": "Logatherm WLW196i-8 IR E/B/T/TS/TP",
+    "pump": "Logatherm WLW276-24 (IP, P, V)",
     "manufacturer": "Buderus",
     "heat": 3.58,
     "water": 3.31,
@@ -7067,20 +7123,6 @@
     "manufacturer": "Stiebel Eltron",
     "heat": 3.61,
     "water": 3.23,
-    "combined": 3.53
-  },
-  {
-    "pump": "i-290 0109",
-    "manufacturer": "Swegon",
-    "heat": 3.57,
-    "water": 3.38,
-    "combined": 3.53
-  },
-  {
-    "pump": "i-290 0118",
-    "manufacturer": "Swegon",
-    "heat": 3.58,
-    "water": 3.31,
     "combined": 3.53
   },
   {
@@ -7196,24 +7238,10 @@
     "combined": 3.52
   },
   {
-    "pump": "Logatherm WLW176i-5 AR T180",
+    "pump": "Logatherm WLW196i.2-6 AR E/B/T/TS/TP S+",
     "manufacturer": "Buderus",
     "heat": 3.54,
     "water": 3.44,
-    "combined": 3.52
-  },
-  {
-    "pump": "Logatherm WLW186i-5 AR T180 (W)",
-    "manufacturer": "Buderus",
-    "heat": 3.54,
-    "water": 3.44,
-    "combined": 3.52
-  },
-  {
-    "pump": "Logatherm WLW196i-6 IR E/B/T/TS/TP",
-    "manufacturer": "Buderus",
-    "heat": 3.52,
-    "water": 3.51,
     "combined": 3.52
   },
   {
@@ -7259,6 +7287,13 @@
     "combined": 3.52
   },
   {
+    "pump": "DAIKIN Altherma 3 R 8kW F H/C (H) (Bi-Zone) 180l/230l (low sound)",
+    "manufacturer": "DAIKIN",
+    "heat": 3.57,
+    "water": 3.29,
+    "combined": 3.52
+  },
+  {
     "pump": "DAIKIN Altherma 3 R 8kW W H/C (H)",
     "manufacturer": "DAIKIN",
     "heat": 3.57,
@@ -7270,6 +7305,13 @@
     "manufacturer": "DAIKIN",
     "heat": 3.57,
     "water": 3.29,
+    "combined": 3.52
+  },
+  {
+    "pump": "AEROTOP HYBRID MINI 15/05RX und 22/05RX",
+    "manufacturer": "Elco",
+    "heat": 3.5,
+    "water": 3.59,
     "combined": 3.52
   },
   {
@@ -7333,6 +7375,13 @@
     "manufacturer": "Remeha GmbH",
     "heat": 3.52,
     "water": 3.51,
+    "combined": 3.52
+  },
+  {
+    "pump": "SQW 400 Duo",
+    "manufacturer": "Remko",
+    "heat": 3.53,
+    "water": 3.44,
     "combined": 3.52
   },
   {
@@ -7504,13 +7553,6 @@
     "combined": 3.52
   },
   {
-    "pump": "LWPM 14",
-    "manufacturer": "Austria Email GmbH",
-    "heat": 3.53,
-    "water": 3.41,
-    "combined": 3.51
-  },
-  {
     "pump": "LWPMK 14",
     "manufacturer": "Austria Email GmbH",
     "heat": 3.53,
@@ -7555,7 +7597,7 @@
   {
     "pump": "WPL 15 ACS",
     "manufacturer": "Stiebel Eltron",
-    "heat": null,
+    "heat": 3.64,
     "water": 3.03,
     "combined": 3.51
   },
@@ -7620,13 +7662,6 @@
     "manufacturer": "IDM Energiesysteme GmbH",
     "heat": 3.58,
     "water": 3.19,
-    "combined": 3.5
-  },
-  {
-    "pump": "HERZ commotherm AWi-Mono 18",
-    "manufacturer": "Swegon",
-    "heat": 3.53,
-    "water": 3.37,
     "combined": 3.5
   },
   {
@@ -7931,6 +7966,13 @@
     "combined": 3.47
   },
   {
+    "pump": "Ecoline 9kW",
+    "manufacturer": "Dream Maker",
+    "heat": 3.53,
+    "water": 3.21,
+    "combined": 3.47
+  },
+  {
     "pump": "HTS 80",
     "manufacturer": "Remko",
     "heat": 3.49,
@@ -7996,8 +8038,8 @@
   {
     "pump": "HM093MR.U44",
     "manufacturer": "LG",
-    "heat": null,
-    "water": null,
+    "heat": 3.5,
+    "water": 3.29,
     "combined": 3.46
   },
   {
@@ -8010,8 +8052,8 @@
   {
     "pump": "WKF 70",
     "manufacturer": "Remko",
-    "heat": null,
-    "water": null,
+    "heat": 3.49,
+    "water": 3.31,
     "combined": 3.46
   },
   {
@@ -8092,6 +8134,13 @@
     "combined": 3.45
   },
   {
+    "pump": "System M Comfort C 121HCIAOC6",
+    "manufacturer": "Dimplex",
+    "heat": 3.46,
+    "water": 3.39,
+    "combined": 3.45
+  },
+  {
     "pump": "EcoAir 406",
     "manufacturer": "Giersch",
     "heat": 3.46,
@@ -8127,21 +8176,7 @@
     "combined": 3.45
   },
   {
-    "pump": "iTec 5",
-    "manufacturer": "Thermia Wärmepumpe",
-    "heat": 3.47,
-    "water": 3.38,
-    "combined": 3.45
-  },
-  {
     "pump": "HWS-1405H-E / HWS-1405XWHM3-E Estia",
-    "manufacturer": "Toshiba",
-    "heat": 3.59,
-    "water": 2.92,
-    "combined": 3.45
-  },
-  {
-    "pump": "HWS-1405H-E / HWS-1405XWHT6-E Estia",
     "manufacturer": "Toshiba",
     "heat": 3.59,
     "water": 2.92,
@@ -8181,13 +8216,6 @@
     "heat": 3.43,
     "water": 3.51,
     "combined": 3.45
-  },
-  {
-    "pump": "Logatherm WLW276-16 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.52,
-    "water": 3.13,
-    "combined": 3.44
   },
   {
     "pump": "Logatherm WLW286-22 A",
@@ -8393,6 +8421,13 @@
     "combined": 3.43
   },
   {
+    "pump": "E-HP AW 84 cool Plus",
+    "manufacturer": "Remeha GmbH",
+    "heat": 3.49,
+    "water": 3.2,
+    "combined": 3.43
+  },
+  {
     "pump": "E-HP AW 84 Plus",
     "manufacturer": "Remeha GmbH",
     "heat": 3.49,
@@ -8533,27 +8568,6 @@
     "combined": 3.42
   },
   {
-    "pump": "HWS-P804HR-E / HWS-P804XWHT9-E Estia extreme",
-    "manufacturer": "Toshiba",
-    "heat": 3.43,
-    "water": 3.37,
-    "combined": 3.42
-  },
-  {
-    "pump": "HWS-P804HR-E1 / HWS-P804XWHM3-E1 Estia extreme",
-    "manufacturer": "Toshiba",
-    "heat": 3.43,
-    "water": 3.37,
-    "combined": 3.42
-  },
-  {
-    "pump": "HWS-P804HR-E1 / HWS-P804XWHT6-E1 Estia extreme",
-    "manufacturer": "Toshiba",
-    "heat": 3.43,
-    "water": 3.37,
-    "combined": 3.42
-  },
-  {
     "pump": "HWS-P804HR-E1 / HWS-P804XWHT9-E1 Estia extreme",
     "manufacturer": "Toshiba",
     "heat": 3.43,
@@ -8687,6 +8701,13 @@
     "combined": 3.41
   },
   {
+    "pump": "Zewo WP-ECO Alpha 290 - 14 kW",
+    "manufacturer": "Zewotherm",
+    "heat": 3.42,
+    "water": 3.36,
+    "combined": 3.41
+  },
+  {
     "pump": "ELW 10",
     "manufacturer": "AWE WÄRMEPUMPEN",
     "heat": 3.43,
@@ -8715,13 +8736,6 @@
     "combined": 3.4
   },
   {
-    "pump": "BLW Split-K 8 C",
-    "manufacturer": "Brötje",
-    "heat": 3.44,
-    "water": 3.24,
-    "combined": 3.4
-  },
-  {
     "pump": "BLW Split-P 8 C",
     "manufacturer": "Brötje",
     "heat": 3.44,
@@ -8731,7 +8745,7 @@
   {
     "pump": "AEROTOP SPLIT 15.2 M-CR 1Z/2Z",
     "manufacturer": "Elco",
-    "heat": null,
+    "heat": 3.44,
     "water": 3.22,
     "combined": 3.4
   },
@@ -8852,13 +8866,6 @@
     "manufacturer": "alpha innotec",
     "heat": 3.41,
     "water": 3.26,
-    "combined": 3.38
-  },
-  {
-    "pump": "Logatherm WLW276-31 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.43,
-    "water": 3.16,
     "combined": 3.38
   },
   {
@@ -9067,7 +9074,7 @@
   {
     "pump": "aero 028i",
     "manufacturer": "SmartHeat Deutschland GmbH",
-    "heat": null,
+    "heat": 3.45,
     "water": 2.99,
     "combined": 3.36
   },
@@ -9279,6 +9286,13 @@
     "manufacturer": "Tecalor",
     "heat": 3.39,
     "water": 3.16,
+    "combined": 3.34
+  },
+  {
+    "pump": "Zewo WP-ECO Alpha 290 - 9 kW",
+    "manufacturer": "Zewotherm",
+    "heat": 3.37,
+    "water": 3.2,
     "combined": 3.34
   },
   {
@@ -9576,13 +9590,6 @@
     "combined": 3.29
   },
   {
-    "pump": "Logatherm WLW276-36 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.36,
-    "water": 3.02,
-    "combined": 3.29
-  },
-  {
     "pump": "LA 60TU-2",
     "manufacturer": "Dimplex",
     "heat": 3.41,
@@ -9676,8 +9683,8 @@
   {
     "pump": "E-HP AW 42 Plus",
     "manufacturer": "Remeha GmbH",
-    "heat": null,
-    "water": null,
+    "heat": 3.33,
+    "water": 3.06,
     "combined": 3.28
   },
   {
@@ -9734,13 +9741,6 @@
     "manufacturer": "CTA AG",
     "heat": 3.39,
     "water": 2.79,
-    "combined": 3.27
-  },
-  {
-    "pump": "Daikin Altherma R ECH2O 516 H/C (Biv) 11kW    (HPSU compact 516 11kW)",
-    "manufacturer": "DAIKIN",
-    "heat": 3.28,
-    "water": 3.2,
     "combined": 3.27
   },
   {
@@ -9807,24 +9807,10 @@
     "combined": 3.25
   },
   {
-    "pump": "BLW Split-K 11 C",
-    "manufacturer": "Brötje",
-    "heat": 3.32,
-    "water": 2.95,
-    "combined": 3.25
-  },
-  {
     "pump": "BLW Split-P 11 C",
     "manufacturer": "Brötje",
     "heat": 3.32,
     "water": 2.95,
-    "combined": 3.25
-  },
-  {
-    "pump": "Logatherm WLW276-19 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.31,
-    "water": 3.01,
     "combined": 3.25
   },
   {
@@ -9853,6 +9839,13 @@
     "manufacturer": "FUJITSU",
     "heat": 3.23,
     "water": 3.34,
+    "combined": 3.25
+  },
+  {
+    "pump": "WPL 13 cool Innenaufstellung",
+    "manufacturer": "Stiebel Eltron",
+    "heat": 3.34,
+    "water": 2.88,
     "combined": 3.25
   },
   {
@@ -10096,7 +10089,7 @@
   {
     "pump": "Comfort  6 kW (WS*A100DG6+WO*A060LFCA)",
     "manufacturer": "FUJITSU",
-    "heat": null,
+    "heat": 3.24,
     "water": 3.06,
     "combined": 3.21
   },
@@ -10112,13 +10105,6 @@
     "manufacturer": "Kampmann",
     "heat": 3.22,
     "water": 3.15,
-    "combined": 3.21
-  },
-  {
-    "pump": "HERZ commotherm AWi-Mono 12",
-    "manufacturer": "Swegon",
-    "heat": 3.22,
-    "water": 3.19,
     "combined": 3.21
   },
   {
@@ -10185,13 +10171,6 @@
     "combined": 3.2
   },
   {
-    "pump": "Logatherm WLW276-53 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.24,
-    "water": 3.02,
-    "combined": 3.2
-  },
-  {
     "pump": "Aeroheat CN 9a",
     "manufacturer": "CTA AG",
     "heat": 3.26,
@@ -10208,7 +10187,7 @@
   {
     "pump": "Compact  8 kW (WP*A080LE)",
     "manufacturer": "FUJITSU",
-    "heat": null,
+    "heat": 3.23,
     "water": 3.06,
     "combined": 3.2
   },
@@ -10242,6 +10221,13 @@
   },
   {
     "pump": "aroTHERM perform VWL 255/3 AS + VWL 255/3 IS S1",
+    "manufacturer": "Vaillant",
+    "heat": 3.24,
+    "water": 3.01,
+    "combined": 3.2
+  },
+  {
+    "pump": "aroTHERM perform VWL 255/3 AS S4 + VWL 255/3 IS S1",
     "manufacturer": "Vaillant",
     "heat": 3.24,
     "water": 3.01,
@@ -10428,13 +10414,6 @@
     "heat": 3.26,
     "water": 2.94,
     "combined": 3.19
-  },
-  {
-    "pump": "BLW Split-K 16 C",
-    "manufacturer": "Brötje",
-    "heat": 3.22,
-    "water": 3.02,
-    "combined": 3.18
   },
   {
     "pump": "BLW Split-P 16 C",
@@ -10689,13 +10668,6 @@
     "combined": 3.14
   },
   {
-    "pump": "Logatherm WLW276-41 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.21,
-    "water": 2.89,
-    "combined": 3.14
-  },
-  {
     "pump": "Belaria SRM (16)",
     "manufacturer": "Hoval",
     "heat": 3.15,
@@ -10764,13 +10736,6 @@
     "heat": 3.16,
     "water": 3.08,
     "combined": 3.14
-  },
-  {
-    "pump": "Logatherm WLW276-24 (IP, P, V)",
-    "manufacturer": "Buderus",
-    "heat": 3.17,
-    "water": 2.93,
-    "combined": 3.13
   },
   {
     "pump": "30RQ-040R",
@@ -10861,13 +10826,6 @@
     "manufacturer": "Tecalor",
     "heat": 3.12,
     "water": 3.07,
-    "combined": 3.11
-  },
-  {
-    "pump": "HWS-804-E / HWS-804XWHT6-E Estia",
-    "manufacturer": "Toshiba",
-    "heat": 3.11,
-    "water": 3.11,
     "combined": 3.11
   },
   {
@@ -10976,13 +10934,6 @@
     "combined": 3.1
   },
   {
-    "pump": "iTec 16",
-    "manufacturer": "Thermia Wärmepumpe",
-    "heat": 3.12,
-    "water": 3.01,
-    "combined": 3.1
-  },
-  {
     "pump": "HWS-1605H8(R)-E / HWS-1405XWHM3-E Estia",
     "manufacturer": "Toshiba",
     "heat": 3.15,
@@ -11036,13 +10987,6 @@
     "manufacturer": "Kampmann",
     "heat": 3.14,
     "water": 2.85,
-    "combined": 3.09
-  },
-  {
-    "pump": "AlphaTherm Zero 23",
-    "manufacturer": "SunHybrid GmbH",
-    "heat": 3.1,
-    "water": 3.04,
     "combined": 3.09
   },
   {
@@ -11165,6 +11109,13 @@
     "combined": 3.07
   },
   {
+    "pump": "WWP L 16 I-2",
+    "manufacturer": "Weishaupt",
+    "heat": 3.09,
+    "water": 3.01,
+    "combined": 3.07
+  },
+  {
     "pump": "LW 300(L)",
     "manufacturer": "alpha innotec",
     "heat": 3.1,
@@ -11275,13 +11226,6 @@
     "heat": 3.15,
     "water": 2.65,
     "combined": 3.05
-  },
-  {
-    "pump": "BLW Split-P 27 C",
-    "manufacturer": "Brötje",
-    "heat": 3.13,
-    "water": 2.68,
-    "combined": 3.04
   },
   {
     "pump": "AE 160 JXEDEH/EU + AE 160 JNYDEH/EU",
@@ -11431,13 +11375,6 @@
     "combined": 3.02
   },
   {
-    "pump": "BLW Split-P 22 C",
-    "manufacturer": "Brötje",
-    "heat": 3.06,
-    "water": 2.84,
-    "combined": 3.01
-  },
-  {
     "pump": "System M Compact 041HOIAOW2",
     "manufacturer": "Dimplex",
     "heat": 3.05,
@@ -11450,6 +11387,13 @@
     "heat": 3.02,
     "water": 2.95,
     "combined": 3.01
+  },
+  {
+    "pump": "ECO 5 LCI",
+    "manufacturer": "BARTL Wärmepumpen JAZ",
+    "heat": 3.03,
+    "water": 2.91,
+    "combined": 3
   },
   {
     "pump": "ECO 5 LCI/HG",
@@ -11492,6 +11436,13 @@
     "heat": 3.11,
     "water": 2.58,
     "combined": 3
+  },
+  {
+    "pump": "AEROTOP T 32 Innenaufstellung",
+    "manufacturer": "Elco",
+    "heat": 2.98,
+    "water": 3.08,
+    "combined": 2.99
   },
   {
     "pump": "AEROTOP T32 Außenaufstellung",
@@ -11677,6 +11628,13 @@
   },
   {
     "pump": "HWS-1604H8R-E1 / HWS-1404XWHT6-E1 Estia",
+    "manufacturer": "Toshiba",
+    "heat": 2.95,
+    "water": 2.89,
+    "combined": 2.94
+  },
+  {
+    "pump": "HWS-1604H8R-E1 / HWS-1404XWHT9-E1 Estia",
     "manufacturer": "Toshiba",
     "heat": 2.95,
     "water": 2.89,
@@ -12070,8 +12028,8 @@
   {
     "pump": "AEROTOP T 20 Innenaufstellung",
     "manufacturer": "Elco",
-    "heat": null,
-    "water": null,
+    "heat": 2.72,
+    "water": 2.65,
     "combined": 2.71
   },
   {

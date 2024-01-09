@@ -68,14 +68,14 @@ test('get JAZ', async ({ page }) => {
 
     // replace multi spaces as it breaks option selection
     await page.selectOption('#wp_hersteller', removeMultiSpaces(manufacturer))
-    await page.waitForTimeout(200)
+    await page.waitForTimeout(250)
 
     const sourceOptions = await page.$$eval('#wp_waermequelle > option', toText)
 
     if (!sourceOptions.includes(heatSource)) continue
 
     await page.selectOption('#wp_waermequelle', heatSource)
-    await page.waitForTimeout(200)
+    await page.waitForTimeout(250)
 
     const pumpOptions = await page.$$eval('#wp_waermepumpe > option', toText)
 
@@ -93,7 +93,7 @@ test('get JAZ', async ({ page }) => {
 
       await page.getByText('Aktualisieren').click()
 
-      await page.waitForTimeout(200)
+      await page.waitForTimeout(250)
       const heat = toFloat(await page.locator('#jaz_heizbetrieb').inputValue())
       const water = toFloat(
         await page.locator('#jaz_wasserbereitung').inputValue()
